@@ -20,7 +20,7 @@ export default function History() {
     }, [])
 
     function generateTextAreaFields({ id, prompt }) {
-        return (<div key={id}>
+        return (<div key={id} className="form-field">
             <label htmlFor={id}>{prompt}</label>
             <textarea id={id}
                 name={id}

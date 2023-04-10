@@ -4,6 +4,8 @@ import LandingPage from './LandingPage'
 import History from './History'
 import Confirmation from "./Confirm"
 import './App.css'
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 

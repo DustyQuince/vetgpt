@@ -25,11 +25,12 @@ export default function Page() {
     ]
 
     function makeDropdown({ id, options, label }) {
-        return (<div key={id}>
+        return (<div key={id} className="form-field">
             <label htmlFor={id}>{label}</label>
             <select id={id}
                 name={id}
                 value={petInfo[id] ? petInfo[id] : ''}
+                className="form-field"
                 onChange={e => {
                     let obj = {}
                     obj[id] = e.target.value
@@ -46,12 +47,13 @@ export default function Page() {
 
     function makeInputElement({ id, type, label }) {
         return (
-            <div key={id}>
+            <div key={id} className="form-field">
                 <label htmlFor={id}>{label}</label>
                 <input type={type}
                     id={id}
                     name={id}
                     value={petInfo[id] ? petInfo[id] : ''}
+                    className="form-field"
                     onChange={e => {
                         let obj = {}
                         obj[id] = e.target.value
