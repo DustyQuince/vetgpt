@@ -1,10 +1,9 @@
-body {
+/* body {
   background-color: #000;
   color: #fff;
   font-family: 'Roboto Mono', monospace;
 }
 
-/* Navigation */
 
 nav {
   display: flex;
@@ -25,7 +24,6 @@ nav a:hover {
   color: #c4a300;
 }
 
-/* Results display */
 
 .result {
   margin: 1rem auto;
@@ -66,7 +64,6 @@ nav a:hover {
 .result a:hover {
   color: #fff;
 }
-/* Forms */
 
 form {
   display: flex;
@@ -77,14 +74,12 @@ form {
   border-radius: 0.5rem;
   background-color: #222;
   box-shadow: 0 0 1rem rgba(255, 255, 255, 0.1);
-/*   align-items: center; */
   justify-content: center
 }
 
 label {
   font-weight: bold;
   margin-bottom: 0.5rem;
-/*   display: block */
 }
 
 input[type="text"],
@@ -146,21 +141,17 @@ input[type="submit"]:hover {
 }
 
 .form-field label {
-/*   flex: 1; */
   display: block;
 }
 
 .form-field input,
 .form-field textarea,
 .form-field select {
-/*   flex: 1; */
-/*   max-width: 300px; */
   width: 100%;
   margin-left: 1rem;
   align-items: center
 
 }
 
-* {
   box-sizing: border-box;
-}
+} */

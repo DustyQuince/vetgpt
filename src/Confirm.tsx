@@ -19,8 +19,7 @@ export default function Confirmation() {
         <div>
             <h2>Here's what you told us: Is this correct?</h2>
             {Object.keys(submission).map(k => (<div key={k}>
-                <p className="confirmField">{k}:</p>
-                <p className="confirmResponse">{submission[k]}</p>
+                <p className="confirmation">{k}: {submission[k]}</p>
             </div>
             ))}
         </div>
